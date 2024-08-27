@@ -11,14 +11,15 @@
 ## PSEUDOCODE
 **START**
 
-INPUT CustomerOrder
-INPUT SpecialRequests
+INPUT CustomerOrder\
+INPUT SpecialRequests\
 SET TotalCost to 0
 
-IF SpecialRequests IS TRUE THEN
-  ADD SpecialRequests to CustomerOrder
-ENDIF
-CALCULATE TotalCost *//(based on CustomerOrder)*
+IF SpecialRequests = TRUE THEN\
+  ADD SpecialRequests to CustomerOrder\
+ENDIF\
+CALCULATE TotalCost 
+> *(based on CustomerOrder)*
 
 **END**
 
