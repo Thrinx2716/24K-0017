@@ -19,4 +19,4 @@ Welcome to my GitHub profile. I'm a student at FAST with a love for AI and astro
 ## Current Focus
 - Currently exploring the latest trends in AI amd wanting to become a developer with part-time focus on graphic design or web development.
 
-[https://static.vecteezy.com/system/resources/previews/019/038/692/original/business-team-creating-artificial-intelligence-machine-learning-and-artificial-intelligence-concept-png.png]
+![Screenshot of a business team creating AI, maching learning and the concept of AI](https://static.vecteezy.com/system/resources/previews/019/038/692/original/business-team-creating-artificial-intelligence-machine-learning-and-artificial-intelligence-concept-png.png)
