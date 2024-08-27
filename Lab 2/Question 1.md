@@ -7,3 +7,19 @@
 4.  If no special requests, proceed to the next step
 5.  Calculate the total cost, including add-ons
 6.  Send the order to for preparation
+
+## PSEUDOCODE
+**START**
+
+INPUT CustomerOrder
+INPUT SpecialRequests
+SET TotalCost to 0
+
+IF SpecialRequests IS TRUE THEN
+  ADD SpecialRequests to CustomerOrder
+ENDIF
+CALCULATE TotalCost *//(based on CustomerOrder)*
+
+**END**
+
+## FLOWCHART
