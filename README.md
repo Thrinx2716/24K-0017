@@ -13,9 +13,10 @@ Welcome to my GitHub profile. I'm a student at FAST with a love for AI and astro
 
 ## Skills & Technologies
 - **Languages**: Python, Scratch
-- **Tools**:  VS Code
-- **Databases**: XXAMP, Apache
+- **Tools**:  VS Code, XAMPP
+- **Databases**: Apache, MySQL
 
 ## Current Focus
 - Currently exploring the latest trends in AI amd wanting to become a developer with part-time focus on graphic design or web development.
-[image](https://github.com/user-attachments/assets/521f94c5-0538-41d9-bf8c-82bbbbc1e36a)
+
+[https://static.vecteezy.com/system/resources/previews/019/038/692/original/business-team-creating-artificial-intelligence-machine-learning-and-artificial-intelligence-concept-png.png]
