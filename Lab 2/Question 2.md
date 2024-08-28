@@ -18,7 +18,7 @@
 **START**
 
 INPUT AccountNumber\
-INPUT DepositAmount\
+INPUT DepositAmount
 
 IF AccountNumber = TRUE THEN\
   IF DepositAmount > 0 THEN\
@@ -29,7 +29,7 @@ IF AccountNumber = TRUE THEN\
   ENDIF\
 ELSE\
   PRINT "Invalid account number!"\
-ENDIF\
+ENDIF
 
 **END**
 
