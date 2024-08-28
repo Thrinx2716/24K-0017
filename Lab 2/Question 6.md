@@ -1,4 +1,4 @@
 # Question 6
 
 ## Flowchart
-![Flowchart for Q6](https://github.com/user-attachments/assets/c4563c33-11d2-49a9-8827-54ac739e6f60)
+![Flowchart for Q6](https://github.com/user-attachments/assets/8c770444-f8b8-44aa-aa36-5d29a77e172f)
