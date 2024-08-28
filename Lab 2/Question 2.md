@@ -17,19 +17,19 @@
 
 **START**
 
-INPUT AccountNumber
-INPUT DepositAmount
+INPUT AccountNumber\
+INPUT DepositAmount\
 
-IF AccountNumber = TRUE THEN
-  IF DepositAmount > 0 THEN
-    AccountBalance = DepositAmount + AccountBalance
-    PRINT "Deposit successful, your new balance is: ", AccountBalance
-  ELSE
-    PRINT "Deposit amount must be greater than 0!"
-  ENDIF
-ELSE
-  PRINT "Invalid account number!"
-ENDIF
+IF AccountNumber = TRUE THEN\
+  IF DepositAmount > 0 THEN\
+    AccountBalance = DepositAmount + AccountBalance\
+    PRINT "Deposit successful, your new balance is: ", AccountBalance\
+  ELSE\
+    PRINT "Deposit amount must be greater than 0!"\
+  ENDIF\
+ELSE\
+  PRINT "Invalid account number!"\
+ENDIF\
 
 **END**
 
