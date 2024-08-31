@@ -1,6 +1,6 @@
 # Question 1
 
-## ALGORITHM
+## *ALGORITHM*
 1. Take the customer's order *(e.g., food items, drinks, etc.)*
 2.  Ask the customer if they have any special requests or add-ons *(e.g., extra cheese, no salt, etc.)*
 3.  If the customer has special requests, modify the order according to the requests
@@ -8,7 +8,7 @@
 5.  Calculate the total cost, including add-ons
 6.  Send the order to for preparation
 
-## PSEUDOCODE
+## *PSEUDOCODE*
 **START**
 
 INPUT CustomerOrder\
@@ -24,5 +24,5 @@ CALCULATE TotalCost
 **END**
 
 
-## FLOWCHART
+## *FLOWCHART*
 ![Flowchart for Q1](https://github.com/user-attachments/assets/2f7e8e7f-92ea-43b4-b4ba-ea1b328cff43)
