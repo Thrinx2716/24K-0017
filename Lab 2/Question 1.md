@@ -18,7 +18,7 @@ SET TotalCost to 0
 IF SpecialRequests = TRUE THEN\
 &nbsp; ADD SpecialRequests to CustomerOrder\
 ENDIF\
-CALCULATE TotalCost 
+TotalCost = OrderCost + SpecialRequestsCost
 > *(based on CustomerOrder)*
 
 **END**
