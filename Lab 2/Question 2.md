@@ -1,6 +1,6 @@
 # Question 2
 
-## ALGORITHM
+## *ALGORITHM*
 
 1. Start
 2. Input account number *(The system asks for the account number)*
@@ -13,7 +13,7 @@
 9. Print receipt "Deposit successful, your new balance is", AccountBalance
 10. End
 
-## PSEUDOCODE
+## *PSEUDOCODE*
 
 **START**
 
@@ -33,5 +33,5 @@ ENDIF
 
 **END**
 
-## FLOWCHART
+## *FLOWCHART*
 
