@@ -5,8 +5,8 @@
 2.  Ask the customer if they have any special requests or add-ons *(e.g., extra cheese, no salt, etc.)*
 3.  If the customer has special requests, modify the order according to the requests
 4.  If no special requests, proceed to the next step
-5.  Calculate the total cost, including add-ons
-6.  Send the order to for preparation
+5.  Total Cost = Order Cost + Special Requests Cost
+6.  Display the Total Cost for the customer
 
 ## *PSEUDOCODE*
 **START**
@@ -16,11 +16,10 @@ INPUT SpecialRequests\
 SET TotalCost to 0
 
 IF SpecialRequests = TRUE THEN\
-&nbsp; ADD SpecialRequests to CustomerOrder\
+&nbsp; CustomerOrder = CustomerOrder + SpecialRequests 
 ENDIF\
 TotalCost = OrderCost + SpecialRequestsCost
-> *(based on CustomerOrder)*
-
+PRINT TotalCost
 **END**
 
 
