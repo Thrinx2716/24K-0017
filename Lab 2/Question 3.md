@@ -12,3 +12,20 @@
 8. Otherwise, set Greatest to C.
 9. Print Greatest.
 10. End.
+
+## PSEUDOCODE
+**START**
+INPUT A
+INPUT B
+INPUT C
+
+SET Greatest to A
+IF B > Greatest THEN
+  SET Greatest to B
+ELSE
+  IF C > Greatest THEN
+    SET Greatest to C
+  ENDIF
+ENDIF
+PRINT Greatest
+**END**
