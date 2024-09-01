@@ -17,17 +17,17 @@ ELSE\
 &nbsp;&nbsp;&nbsp; IF operator is "*" THEN\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SET result to number1 * number2\
 &nbsp;&nbsp;&nbsp; ELSE\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IF operator is "/" THEN\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IF number2 is not 0 THEN\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SET result to number1 / number2\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IF operator is "/" THEN\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IF number2 is not 0 THEN\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SET result to number1 / number2\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ELSE\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PRINT "Error: Division by zero"\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ENDIF\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ELSE\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PRINT "Error: Division by zero"\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ENDIF\
-&nbsp;&nbsp;&nbsp; ELSE\ 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IF operator is "%" THEN\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SET result to number1 % number2\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ELSE\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PRINT "Invalid operator. Please use +, -, *, /, or %"\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IF operator is "%" THEN\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SET result to number1 % number2\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ELSE\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PRINT "Invalid operator. Please use +, -, *, /, or %"\
 ENDIF
 
 PRINT "Result: ", Result\
