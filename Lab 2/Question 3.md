@@ -21,11 +21,11 @@ INPUT C
 
 SET Greatest to A\
 IF B > Greatest THEN\
-&nbsp; SET Greatest to B\
+&nbsp;&nbsp; SET Greatest to B\
 ELSE\
-&nbsp; IF C > Greatest THEN\
-&nbsp;&nbsp; SET Greatest to C\
-&nbsp; ENDIF\
+&nbsp;&nbsp; IF C > Greatest THEN\
+&nbsp;&nbsp;&nbsp; SET Greatest to C\
+&nbsp;&nbsp; ENDIF\
 ENDIF\
 PRINT Greatest\
 **END**
