@@ -1,6 +1,6 @@
 # Question 3
 
-## ALGORITHM
+## *ALGORITHM*
 
 1. Start.
 2. Input three numbers A, B, and C.
@@ -13,7 +13,8 @@
 9. Print Greatest.
 10. End.
 
-## PSEUDOCODE
+## *PSEUDOCODE*
+
 **START**\
 INPUT A\
 INPUT B\
