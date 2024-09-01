@@ -5,7 +5,7 @@
 **START**\
 INPUT A\
 INPUT Operator\
-INPUT B
+INPUT B\
 SET Result to 0
 
 IF Operator == + THEN\
