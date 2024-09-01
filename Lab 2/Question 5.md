@@ -2,20 +2,21 @@
 
 ## *PSEUDOCODE*
 
-**START**
-INPUT A
-INPUT Operator
+**START**\
+INPUT A\
+INPUT Operator\
 INPUT B
+SET Result to 0
 
-IF Operator == + THEN
-SET Result to A + B
-ELSE 
-IF Operator == - THEN
-SET Result to A - B
-ELSE
-PRINT "Invalid operator. Please use + or -"
-ENDIF
+IF Operator == + THEN\
+&nbsp; SET Result to A + B\
+ELSE\
+&nbsp; IF Operator == - THEN\
+&nbsp;&nbsp; SET Result to A - B\
+&nbsp; ELSE\
+&nbsp;&nbsp; PRINT "Invalid operator. Please use + or -"\
+&nbsp; ENDIF\
 ENDIF
 
-PRINT Result
+PRINT Result\
 **END**
