@@ -12,9 +12,9 @@ IF Operator == + THEN\
 &nbsp; SET Result to A + B\
 ELSE\
 &nbsp; IF Operator == - THEN\
-&nbsp;&nbsp; SET Result to A - B\
+&nbsp;&nbsp;&nbsp; SET Result to A - B\
 &nbsp; ELSE\
-&nbsp;&nbsp; PRINT "Invalid operator. Please use + or -"\
+&nbsp;&nbsp;&nbsp; PRINT "Invalid operator. Please use + or -"\
 &nbsp; ENDIF\
 ENDIF
 
