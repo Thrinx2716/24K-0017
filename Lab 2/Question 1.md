@@ -17,7 +17,7 @@ INPUT CustomerOrder\
 INPUT SpecialRequests\
 SET TotalCost to 0
 
-IF SpecialRequests = TRUE THEN\
+IF SpecialRequests == TRUE THEN\
 &nbsp; CustomerOrder = CustomerOrder + SpecialRequests\
 ENDIF\
 TotalCost = OrderCost + SpecialRequestsCost\
