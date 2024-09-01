@@ -2,16 +2,16 @@
 
 ## *ALGORITHM*
 
-1. Start
-2. Input account number *(The system asks for the account number)*
-3. Input deposit amount *(The system asks for the deposit amount)*
-4. If the account is valid, continue to the next step. *(Verify if the account number exists in the database)*
+1. Start.
+2. Input account number.
+3. Input deposit amount.
+4. If the account is valid, continue to step 6.
 5. If the account is not valid, print "Invalid account number" and end the process.
-6. If the deposit amount is valid, continue to the next step. *(Verify if the deposit amount is greater than 0)*
+6. If the deposit amount is greater than 0, continue to step 8.
 7. If the deposit amount is not valid, print "Deposit amount must be greater than 0" and end the process.
-8. Add the deposit amount to the existing account balance
+8. Add the deposit amount to the existing account balance.
 9. Print receipt "Deposit successful, your new balance is", AccountBalance
-10. End
+10. End.
 
 ## *PSEUDOCODE*
 
