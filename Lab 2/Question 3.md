@@ -24,7 +24,7 @@ IF B > Greatest THEN\
 &nbsp; SET Greatest to B\
 ELSE\
 &nbsp; IF C > Greatest THEN\
-&nbsp;   SET Greatest to C\
+&nbsp;&nbsp; SET Greatest to C\
 &nbsp; ENDIF\
 ENDIF\
 PRINT Greatest\
