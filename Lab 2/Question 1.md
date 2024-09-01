@@ -21,7 +21,3 @@ ENDIF\
 TotalCost = OrderCost + SpecialRequestsCost
 PRINT TotalCost
 **END**
-
-
-## *FLOWCHART*
-![Flowchart for Q1](https://github.com/user-attachments/assets/2f7e8e7f-92ea-43b4-b4ba-ea1b328cff43)
