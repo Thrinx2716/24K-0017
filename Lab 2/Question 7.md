@@ -6,7 +6,7 @@
 INPUT number1\
 INPUT operator\
 INPUT number2\
-SET result to 0
+SET Result to 0
 
 IF operator == "+" THEN\
 &nbsp; SET result to number1 + number2\
