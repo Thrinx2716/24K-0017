@@ -1,6 +1,6 @@
 # Question 4
 
-## ALGORITHM
+## *ALGORITHM*
 
 1. Ask the user to enter a number between 1 and 12.
 2. If the number is 1, display "January."
