@@ -1,1 +1,9 @@
+# Problem 1
 
+## *IPO*
+
+## *FLOWCHART*
+
+## *PSEUDOCODE*
+
+## *EXPLANATION*
