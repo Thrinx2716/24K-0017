@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// Code for Q6 of Lab 3 (Outputs the gradient of a line passing through (5,4) and (3,2))
+
 int main() {
     // Coordinates of the points
     int x1 = 5, y1 = 4;
