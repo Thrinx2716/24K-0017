@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// Code for Q2 of Lab 3 (Swap variables A and B after taking input from user)
+
 int main() {
     int a, b, temp;
 
