@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// Code for Q4 of Lab 3 (Output totsl fuel consumed and its cost after taking fuel average as input from user)
+
 int main() {
     float fuelavg, totaldist, fwdfuelprice, returnfuelprice;
     float totalfuelused, totalfuelcost;
