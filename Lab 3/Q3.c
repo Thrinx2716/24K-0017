@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// Code for Q3 of Lab 3 (Output tax to be paid and the salary after paying tax after taking the tax rate and salary from user)
+
 int main() {
     float rate, salary, amount, netsalary;
 
