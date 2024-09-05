@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// Code for Q5 of Lab 3 (Output Simple Interest after taking Principal, Rate of Interest and Time Period as input from user)
+
 int main() {
     float p, r, t, i;
 
