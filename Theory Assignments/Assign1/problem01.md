@@ -7,13 +7,13 @@
 ## *PSEUDOCODE*
 
 **START**\
-  // Input kilometers per second\
+  *// Input kilometers per second*\
   INPUT Kps
   
-  // Multiply by conversion factor\
+  *// Multiply by conversion factor*\
   Mph = Kps * 2237
   
-  // Output miles per hour\
+  *// Output miles per hour*\
   PRINT Mph\
 **END**
 
