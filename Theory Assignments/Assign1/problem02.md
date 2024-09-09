@@ -12,7 +12,7 @@
   
   *// Process/Output*\
   IF n <= 0 THEN\
-  &nbsp;&nbsp;&nbsp;PRINT "Invalid input"\
+  &emsp;PRINT "Invalid input"\
   ELSE\
   &nbsp;&nbsp;&nbsp;IF n % 2 == 0 THEN\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRINT "Even"\
