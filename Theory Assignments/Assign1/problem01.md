@@ -8,13 +8,14 @@
 
 **START**\
   *// Input kilometers per second*\
+  PRINT "Enter the speed in kilometers per second: "
   INPUT Kps
   
   *// Multiply by conversion factor*\
   Mph = Kps * 2237
   
   *// Output miles per hour*\
-  PRINT Mph\
+  PRINT "The speed in miles per hour is: ", Mph\
 **END**
 
 ## *EXPLANATION*
