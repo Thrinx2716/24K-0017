@@ -14,10 +14,10 @@
   IF n <= 0 THEN\
   &emsp;PRINT "Invalid input"\
   ELSE\
-  &nbsp;&nbsp;&nbsp;IF n % 2 == 0 THEN\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRINT "Even"\
-  &nbsp;&nbsp;&nbsp;ELSE\
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRINT "Odd"\
+  &emsp;IF n % 2 == 0 THEN\
+  &emsp;&emsp;PRINT "Even"\
+  &emsp;&emsp;ELSE\
+  &emsp;PRINT "Odd"\
 **END**
 
 ## *EXPLANATION*
