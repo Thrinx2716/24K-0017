@@ -12,12 +12,12 @@
   
   *// Process/Output*\
   IF n <= 0 THEN\
-    PRINT "Invalid input"\
+     PRINT "Invalid input"\
   ELSE\
-    IF n % 2 == 0 THEN\
-      PRINT "Even"\
-    ELSE\
-      PRINT "Odd"\
+     IF n % 2 == 0 THEN\
+        PRINT "Even"\
+     ELSE\
+        PRINT "Odd"\
 **END**
 
 ## *EXPLANATION*
