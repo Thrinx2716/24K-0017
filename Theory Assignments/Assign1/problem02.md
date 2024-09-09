@@ -16,8 +16,8 @@
   ELSE\
   &emsp;IF n % 2 == 0 THEN\
   &emsp;&emsp;PRINT "Even"\
-  &emsp;&emsp;ELSE\
-  &emsp;PRINT "Odd"\
+  &emsp;ELSE\
+  &emsp;&emsp;PRINT "Odd"\
 **END**
 
 ## *EXPLANATION*
