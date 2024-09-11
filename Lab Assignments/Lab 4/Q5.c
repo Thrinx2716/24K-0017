@@ -14,52 +14,59 @@ int main() {
        switch(to) {
                 case 'F': // C to F
                     conv = (temp * 9 / 5) + 32;
-                    printf("%.2f°C is equal to %.2f°F\n", temp, conv);
+                    printf("%.2f degrees C is equal to %.2f degrees F", temp, conv);
                     break;
                 case 'K': // C to K
                     conv = temp + 273.15;
-                    printf("%.2f°C is equal to %.2f°K\n", temp, conv);
+                    printf("%.2f degrees C is equal to %.2f degrees K", temp, conv);
                     break;
                 case 'C': //C toC
-                    printf("The temperature remains %.2f°C\n", temp);
+                    printf("The temperature remains %.2f degrees C", temp);
                     break;
                 default:
-                    printf("Invalid unit selected for conversion.\n");
+                    printf("Invalid unit selected for conversion.");
+		}
     } 
 	else if (from == 'F') {
        switch(to) {
-                case 'C':  // Fahrenheit to Celsius
+                case 'C':  // F to C
                     conv = (temp - 32) * 5 / 9;
-                    printf("%.2f°F is equal to %.2f°C\n", temp, conv);
+                    printf("%.2f degrees F is equal to %.2f degrees C", temp, conv);
                     break;
-                case 'K':  // Fahrenheit to Kelvin
+                case 'K':  // F to K
                     conv = (temp - 32) * 5 / 9 + 273.15;
-                    printf("%.2f°F is equal to %.2f°K\n", temp, conv);
+                    printf("%.2f degrees F is equal to %.2f degrees K", temp, conv);
                     break;
-                case 'F':  // Fahrenheit to Fahrenheit
-                    printf("The temperature remains %.2f°F\n", temp);
+                case 'F':  // F to F
+                    printf("The temperature remains %.2f degrees F", temp);
                     break;
                 default:
-                    printf("Invalid unit selected for conversion.\n");
-            }
-            break;
-        }
+                    printf("Invalid unit selected for conversion.");
+            	    break;
+		}
+    }
     else if (from == 'K') {
-        if (to == 'C') {
-            conv = temp - 273.15;  // Kelvin to Celsius
-            printf("%.2f°K is equal to %.2f°C\n", temp, conv);
-        } else if (to == 'F') {
-            conv = (temp - 273.15) * 9 / 5 + 32;  // Kelvin to Fahrenheit
-            printf("%.2f°K is equal to %.2f°F\n", temp, conv);
-        } else if (to == 'K') {
-            printf("The temperature remains %.2f°K\n", temp);
-        } else {
-            printf("Invalid unit selected for conversion.\n");
-        }
-    } else {
+        switch(to) {
+                case 'C':  // K to C
+                    convertedTemp = temp - 273.15;
+                    printf("%.2f degrees K is equal to %.2f degrees C", temp, convertedTemp);
+                    break;
+                case 'F':  // K to F
+                    convertedTemp = (temp - 273.15) * 9 / 5 + 32;
+                    printf("%.2f degrees Kelvin is equal to %.2f degrees F", temp, convertedTemp);
+                    break;
+                case 'K':  // K to K
+                    printf("The temperature remains %.2f degrees K", temp);
+                    break;
+                default:
+                    printf("Invalid unit selected for conversion.");
+                    break;
+            }
+    } 
+    else {
         printf("Invalid input temperature unit.\n");
     }
-    printf("Thank you for using our AI-powered temperature converter.\n");
     
+printf("Thank you for using our AI-powered temperature converter.\n");
 return 0;
-}
+} // end main
