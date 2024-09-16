@@ -6,7 +6,7 @@
 
 ## *PSEUDOCODE*
 
-**START**\
+**START**
   
 *// Input*\
 INPUT n
