@@ -7,14 +7,14 @@
 ## *PSEUDOCODE*
 
 **START**\
-  *// Input kilometers per second*\
+  *// Input*\
   PRINT "Enter the speed in kilometers per second: "
   INPUT Kps
   
-  *// Multiply by conversion factor*\
+  *// Process*\
   Mph = Kps * 2237
   
-  *// Output miles per hour*\
+  *// Output*\
   PRINT "The speed in miles per hour is: ", Mph\
 **END**
 
