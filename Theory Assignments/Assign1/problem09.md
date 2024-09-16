@@ -61,7 +61,7 @@ IF (TMonth < BMonth) || (TMonth == BMonth && TDay < TDay) THEN\
   Age = Age - 1\
 ENDIF
 
-// Output\
+*// Output\*
 PRINT "You are", Age, "years old."
 
 **END**
