@@ -8,36 +8,36 @@
 
 **START**
 
-// Input
-INPUT Crop
-INPUT Moisture
+*// Input*\
+INPUT Crop\
+INPUT Moisture\
 INPUT Rain
    
 *// Process/Output*\
-IF Crop == "wheat" THEN *// Start Main*
-  IF Moisture < 30 && Rain == FALSE THEN *// Wheat Start*
-    PRINT "Irrigation required for Wheat."
-  ELSE
-    PRINT "No irrigation required."
-  ENDIF *// Wheat End*
-ELSE 
-  IF Crop == "corn" THEN *// Corn Start*
-    IF Moisture < 40 THEN
-      PRINT "Irrigation required for Corn."
-    ELSE
-      PRINT "No irrigation required."
-    ENDIF *// Corn End*
-  ELSE 
-    IF Crop == "rice" THEN *// Rice Start*
-      IF Moisture < 25 && Rain == FALSE THEN
-        PRINT "Irrigation Required for Rice."
-      ELSE
-        PRINT "No irrigation required."
-      ENDIF *// Rice End*
-    ELSE
-      PRINT "Invalid crop." *// Otherwise*
-    ENDIF
-  ENDIF
+IF Crop == "wheat" THEN *// Start Main*\
+  IF Moisture < 30 && Rain == FALSE THEN *// Wheat Start*\
+    PRINT "Irrigation required for Wheat."\
+  ELSE\
+    PRINT "No irrigation required."\
+  ENDIF *// Wheat End*\
+ELSE\
+  IF Crop == "corn" THEN *// Corn Start*\
+    IF Moisture < 40 THEN\
+      PRINT "Irrigation required for Corn."\
+    ELSE\
+      PRINT "No irrigation required."\
+    ENDIF *// Corn End*\
+  ELSE\
+    IF Crop == "rice" THEN *// Rice Start*\
+      IF Moisture < 25 && Rain == FALSE THEN\
+        PRINT "Irrigation Required for Rice."\
+      ELSE\
+        PRINT "No irrigation required."\
+      ENDIF *// Rice End*\
+    ELSE\
+      PRINT "Invalid crop." *// Otherwise*\
+    ENDIF\
+  ENDIF\
 ENDIF *// End Main*
 
 **END**
