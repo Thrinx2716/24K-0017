@@ -11,7 +11,7 @@
 *// Input/Initialize*\
 INPUT Num\
 Sum = 0\
-Temp = Num\
+Temp = Num
 
     
 *// Process*\
