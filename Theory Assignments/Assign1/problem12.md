@@ -9,18 +9,18 @@
 
 **START**
 
-*// Process*
-3LJug = 3
-5LJug = 3LJug
-3LJug = 3
-5LJug = 5LJug + (3LJug - 1)
-3LJug = 1
-3LJug = 0
-5LJug = 3LJug
-3LJug = 3
+*// Process*\
+3LJug = 3\
+5LJug = 3LJug\
+3LJug = 3\
+5LJug = 5LJug + (3LJug - 1)\
+3LJug = 1\
+3LJug = 0\
+5LJug = 3LJug\
+3LJug = 3\
 5LJug = 5LJug + 3LJug
 
-*// Output*
+*// Output*\
 PRINT "Congrats! You defused the bomb."
 
 **END**
