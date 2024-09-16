@@ -68,3 +68,4 @@ PRINT "You are", Age, "years old."
 
 ## *EXPLANATION*
 
+First, we extract the year, month and day from the birthdate and today's date. Each date is validated, including leap years. After validation, the age is calculated by the difference between the birth year and the current year. If the birthday hasn't occurred in the current year, the age is adjusted.
