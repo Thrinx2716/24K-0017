@@ -9,11 +9,8 @@
 **START**
 
 *// Input*\
-PRINT "Enter age: "\
 INPUT Age\
-PRINT "Enter gender: "\
 INPUT Gen\
-PRINT "Enter province (Sindh/Punjab): "\
 INPUT Prov
 
 *// Process/Output*\
