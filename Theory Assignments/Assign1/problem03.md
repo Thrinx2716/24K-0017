@@ -34,3 +34,5 @@ ELSE\
 **END**
 
 ## *EXPLANATION*
+
+This solution helps to determine if a person can legally marry based on their age, gender, and the province they live in (Sindh or Punjab). First, it asks for the person's age, gender, and province. If they live in Sindh, the law is simple: no one under 18 can marry. In Punjab, girls need to be at least 16, and boys need to be at least 18 to marry. The program checks these rules and then tells the user if they are legally allowed to marry or not based on their details.
