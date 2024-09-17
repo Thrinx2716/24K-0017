@@ -12,7 +12,7 @@
 PRINT "Enter the 7-digit binary number:"\
 INPUT BinNum
 
-*// Process*\
+*// Process*\ 
 IF BinNum == "1111110" THEN\
   PRINT "The lift is on floor 0"\
   ELSE IF BinNum == "0110000" THEN\
