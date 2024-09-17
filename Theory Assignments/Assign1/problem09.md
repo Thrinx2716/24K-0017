@@ -22,43 +22,43 @@ TMonth = (TDate % 10000) / 100\
 TDay = TDate % 100
 
 IF BMonth < 1 || BMonth > 12 THEN\
-  PRINT "Invalid birht month."\
+&emsp;PRINT "Invalid birht month."\
 ENDIF\
 IF BMonth = 2 THEN\
-  IF (BYear % 4 == 0 && BYear % 100 != 0) || (BYear % 400 == 0) THEN\
-    MaxDays = 29 // Leap\
-  ELSE\
-    MaxDays = 28  // Not leap\
-  ENDIF\
+&emsp;IF (BYear % 4 == 0 && BYear % 100 != 0) || (BYear % 400 == 0) THEN\
+&emsp;&emsp;MaxDays = 29 // Leap\
+&emsp;ELSE\
+&emsp;&emsp;MaxDays = 28  // Not leap\
+&emsp;ENDIF\
 ELSE IF BMonth == 4 || BMonth == 6 || BMonth == 9 || BMonth == 11 THEN\
-  MaxDays = 30\
+&emsp;MaxDays = 30\
 ELSE\
-  MaxDays = 31\
+&emsp;MaxDays = 31\
 ENDIF\
 IF BDay < 1 || BDay > MaxDays THEN\
-  PRINT "Invalid birthday."\
+&emsp;PRINT "Invalid birthday."\
 ENDIF
 
 IF TMonth < 1 || TMonth > 12 THEN\
-  PRINT "Invalid month."\
+&emsp;PRINT "Invalid month."\
 ENDIF\
 IF TMonth = 2 THEN\
-  IF (TYear % 4 == 0 && TYear % 100 != 0) || (TYear % 400 == 0) THEN\
-    MaxDays = 29\
-  ELSE\
-    MaxDays = 28\
-  ENDIF\
+&emsp;IF (TYear % 4 == 0 && TYear % 100 != 0) || (TYear % 400 == 0) THEN\
+&emsp;&emsp;MaxDays = 29\
+&emsp;ELSE\
+&emsp;&emsp;MaxDays = 28\
+&emsp;ENDIF\
 ELSE IF TMonth == 4 || TMonth == 6 || TMonth == 9 || TMonth == 11 THEN\
-  MaxDays = 30\
+&emsp;MaxDays = 30\
 ELSE\
-  MaxDays = 31\
+&emsp;MaxDays = 31\
 ENDIF\
 IF TDay < 1 || TDay > MaxDays THEN\
-  PRINT "Invalid day."\
+&emsp;PRINT "Invalid day."\
 ENDIF\
 Age = TYear - BYear\
 IF (TMonth < BMonth) || (TMonth == BMonth && TDay < TDay) THEN\
-  Age = Age - 1\
+&emsp;Age = Age - 1\
 ENDIF
 
 *// Output\*
