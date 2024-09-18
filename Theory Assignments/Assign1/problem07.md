@@ -40,4 +40,4 @@ ENDIF
 
 ## *EXPLANATION*
 
-We take a 7-digit binary number as the input, where each digit represents a segment on a display. Depending on whatever segments are lit, the display will show a specific number (0 to9) which represents the current floor. We then map each binary combination of 7 segments to the correct floor number using if-else statements.
+We will take a 7-digit binary number as the input, where each digit represents a segment on a display. Depending on whatever segments are lit, the display will show a specific number (0 to9) which represents the current floor. We then map each binary combination of 7 segments to the correct floor number using if-else statements.
