@@ -1,8 +1,14 @@
+***24K-0017 | Salman Ahmed***
+
 # Problem 3
 
 ## *IPO*
 
+![image](https://github.com/user-attachments/assets/3fc12589-2aaa-4b6e-88b1-1979175d0f52)
+
 ## *FLOWCHART*
+
+![image](https://github.com/user-attachments/assets/79006baf-adbf-49be-8ca6-05d06c15235b)
 
 ## *PSEUDOCODE*
 
