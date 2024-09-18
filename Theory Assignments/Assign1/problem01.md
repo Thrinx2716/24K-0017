@@ -2,6 +2,8 @@
 
 ## *IPO*
 
+![image](https://github.com/user-attachments/assets/b08401e7-6b44-4c38-98a6-56086cb35fdb)
+
 ## *FLOWCHART*
 
 ## *PSEUDOCODE*
