@@ -8,8 +8,7 @@
 
 **START**
 
-*// Input*\
-PRINT "Enter the 7-digit binary number:"\
+*// Input*\\
 INPUT BinNum
 
 *// Process*\ 
