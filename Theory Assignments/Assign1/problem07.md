@@ -8,7 +8,7 @@
 
 **START**
 
-*// Input*\\
+*// Input*\
 INPUT BinNum
 
 *// Process*\ 
