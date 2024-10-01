@@ -14,4 +14,6 @@ int main() {
     return 0;
 }
 
-
+/*
+While/Do ... While Loop is better for a stopping condition since it depends entirely on the user input and not systematic calculations. 
+*/
