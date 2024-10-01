@@ -7,9 +7,11 @@ int main() {
     char Continue;
 
     while (Run) {
+        // Input
         printf("Did you send a snap today? (Y/N): ");
         scanf(" %c", &Response);
 
+        // Process
         if (Response == 'Y' || Response == 'y') {
             Streak++;
             printf("Your current streak is: %d days.\n", Streak);
@@ -20,6 +22,7 @@ int main() {
             printf("Invalid Input.\n");
         }
 
+        // Output
         printf("Do you want to continue tracking your streak? (Y/N): ");
         scanf(" %c", &Continue);
         if (Continue == 'N' || Continue == 'n') {
