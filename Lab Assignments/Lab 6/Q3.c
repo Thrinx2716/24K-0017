@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main() { // Start Main
 	int Correct = 5678; 
 	int PIN;
