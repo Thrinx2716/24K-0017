@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main() { // Start Main
     int Streak = 0;
     int Days;
     char Sent;
