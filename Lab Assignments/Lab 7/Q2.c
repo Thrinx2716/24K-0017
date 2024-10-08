@@ -1,20 +1,20 @@
 #include <stdio.h>
 
 int main() { // start main
-      int n, i;
+      	int n, i;
   
-	    // Input
-	    printf("Enter number of elements: ");
+	// Input
+	printf("Enter number of elements: ");
     	scanf("%d", &n);
 
-	    // Process
+	// Process
     	int Arr[n];
-	    printf("Enter elements of the array: ");
+	printf("Enter elements of the array: ");
     	for(i = 0; i < n; i++) {
         	scanf("%d", &Arr[i]);
     	}
 	
-	    // Output
+	// Output
     	printf("Elements in reverse order: ");
     	for(i = n - 1; i >= 0; i--) {
         	printf("%d ", Arr[i]);
