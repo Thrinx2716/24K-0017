@@ -3,36 +3,35 @@
 #include <stdio.h>
 
 int main() { // start main
-    int Len, Target, Pos = -1;
+    	int Len, Target, Pos = -1;
+	printf("Enter length of array: ");
+    	scanf("%d", &Len);
+    	int Num[Len];
 
-    printf("Enter length of array: ");
-    scanf("%d", &Len);
-    int Num[Len];
+    	// Input
+    	printf("Enter %d integers:\n", Len);
+    	for (int i = 0; i < Len; i++) {
+        	scanf("%d", &Num[i]);
+    	}
 
-    // Input
-    printf("Enter %d integers:\n", Len);
-    for (int i = 0; i < Len; i++) {
-        scanf("%d", &Num[i]);
-    }
+    	// Process
+    	printf("Enter an integer to search: ");
+    	scanf("%d", &Target);
 
-    // Process
-    printf("Enter an integer to search: ");
-    scanf("%d", &Target);
+    	for (int i = 0; i < Len; i++) {
+        	if (Num[i] == Target) {
+            	Pos = i;
+            	break;
+        	}
+    	}
 
-    for (int i = 0; i < Len; i++) {
-        if (Num[i] == Target) {
-            Pos = i;
-            break;
-        }
-    }
+   	 // Output
+    	if (Pos != -1) {
+		Pos += 1;
+        	printf("%d found at position %d.\n", Target, Pos);
+    	} else {
+        	printf("%d not found in the array.\n", Target);
+   	}
 
-    // Output
-    if (Pos != -1) {
-	Pos += 1;
-        printf("%d found at position %d.\n", Target, Pos);
-    } else {
-        printf("%d not found in the array.\n", Target);
-    }
-
-    return 0;
+    	return 0;
 } // end main
